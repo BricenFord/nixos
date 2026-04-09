@@ -24,3 +24,13 @@ nixos/
     ├── hypr/
     └── waybar/
 ```
+
+## Usage
+
+Apply the config from this repository:
+
+```bash
+nix flake update
+sudo nixos-rebuild switch --flake .#de
+sudo reboot
+```
